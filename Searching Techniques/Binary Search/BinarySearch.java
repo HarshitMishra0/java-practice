@@ -16,9 +16,9 @@ public class BinarySearch {
         int mid = start + (end-start)/2;
 
         if(target>arr[mid]){
-            start = start +1;
+            start = mid +1;
         }else if(target<arr[mid]){
-            end = end - 1;
+            end = mid - 1;
         }else{
             return mid;
         }
