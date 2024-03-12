@@ -3,7 +3,7 @@ public class CountZeros {
     public static void main(String[] args) {
         
         System.out.println(counts(28030, 0));
-
+       
 
     }
 
